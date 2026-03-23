@@ -6,7 +6,7 @@ function TourCard({ tour }) {
           <div className="card__picture-overlay">&nbsp;</div>
           <img
             className="card__picture-img"
-            src={`http://localhost:5000/img/tours/${tour.imageCover}`}
+            src={`${process.env.REACT_APP_API_URL}/img/tours/${tour.imageCover}`}
             alt={tour.name}
           />
         </div>

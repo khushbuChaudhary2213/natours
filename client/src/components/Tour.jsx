@@ -72,7 +72,7 @@ function Tour() {
           <div className="header__hero">
             <div className="header__hero-overlay">&nbsp;</div>
             <img
-              src={`http://localhost:5000/img/tours/${tour.imageCover}`}
+              src={`${process.env.REACT_APP_API_URL}/img/tours/${tour.imageCover}`}
               alt={`${tour.name}`}
               className="header__hero-img"
             />
@@ -139,7 +139,7 @@ function Tour() {
                   return (
                     <div className="overview-box__detail">
                       <img
-                        src={`http://localhost:5000/img/users/${guide.photo}`}
+                        src={`${process.env.REACT_APP_API_URL}/img/users/${guide.photo}`}
                         alt={guide.name}
                         className="overview-box__img"
                       />
@@ -172,7 +172,7 @@ function Tour() {
             return (
               <div className="picture-box">
                 <img
-                  src={`http://localhost:5000/img/tours/${img}`}
+                  src={`${process.env.REACT_APP_API_URL}/img/tours/${img}`}
                   alt={`The Park Camper Tour ${i + 1}`}
                   className={`picture-box__img picture-box__img--${i + 1}`}
                 />
@@ -209,12 +209,12 @@ function Tour() {
               <>
                 <img
                   className="cta__img cta__img--1"
-                  src={`http://localhost:5000/img/tours/${tour.images[1]}`}
+                  src={`${process.env.REACT_APP_API_URL}/img/tours/${tour.images[1]}`}
                   alt="Tour Picture 1"
                 />
                 <img
                   className="cta__img cta__img--2"
-                  src={`http://localhost:5000/img/tours/${tour.images[2]}`}
+                  src={`${process.env.REACT_APP_API_URL}/img/tours/${tour.images[2]}`}
                   alt="Tour Picture 2"
                 />
               </>

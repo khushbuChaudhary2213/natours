@@ -41,7 +41,7 @@ function Header() {
             </a>
             <a href="/me" className="nav__el">
               <img
-                src={`http://localhost:5000/img/users/${user.photo}`}
+                src={`${process.env.REACT_APP_API_URL}/img/users/${user.photo}`}
                 alt={`Pic of ${user.name}`}
                 className="nav__user-img"
               />
