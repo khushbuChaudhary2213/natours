@@ -1,4 +1,3 @@
-import { loadStripe } from "@stripe/stripe-js";
 import api from "../utils/axios";
 // const stripePromise = loadStripe(
 //   "pk_test_51OGktxSI48lwXM9tGGglPAJtUCiNtmSndE5Do6UPNXQUxmoGdV4iZvQzCkQJc8wBuoXBRUvCVQFkwxUPeLvLcIk900ZTOKh6af",
