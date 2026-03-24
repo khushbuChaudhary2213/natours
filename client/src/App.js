@@ -18,6 +18,7 @@ import Bookings from "./components/Bookings";
 
 function App() {
   const [tours, setTours] = useState([]);
+  console.log("API:", process.env.REACT_APP_API_URL);
 
   useEffect(() => {
     const fetchData = async () => {
