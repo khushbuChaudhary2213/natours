@@ -9,8 +9,10 @@ function Header() {
   async function handleLogout() {
     try {
       const res = await logoutUser();
-      if (res.statusText === "OK") setUser(null);
-      navigate("/login");
+      if (res.status === 200) {
+        setUser(null);
+        navigate("/login", { replace: true });
+      }
     } catch (err) {
       alert(err.response.data.message);
       console.log(err.response.data.message);
