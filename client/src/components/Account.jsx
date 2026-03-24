@@ -179,7 +179,7 @@ const Account = () => {
                 <img
                   className="form__user"
                   src={`${process.env.REACT_APP_API_URL}/img/users/${user.photo}`}
-                  alt="User photo"
+                  alt="User"
                 />
                 <input
                   className="form__upload"

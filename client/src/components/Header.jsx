@@ -31,7 +31,7 @@ function Header() {
         {user ? (
           <>
             <a
-              href="#"
+              href="/logout"
               className="nav__el nav__el--logout"
               onClick={(e) => {
                 e.preventDefault();
@@ -54,7 +54,7 @@ function Header() {
             <a href="/login" className="nav__el">
               Log in
             </a>
-            <a href="#" className="nav__el nav__el--cta">
+            <a href="/signup" className="nav__el nav__el--cta">
               Sign Up
             </a>
           </>
