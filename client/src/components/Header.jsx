@@ -31,7 +31,6 @@ function Header() {
         {user ? (
           <>
             <a
-              href="/logout"
               className="nav__el nav__el--logout"
               onClick={(e) => {
                 e.preventDefault();
