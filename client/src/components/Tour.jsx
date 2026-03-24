@@ -210,12 +210,12 @@ function Tour() {
                 <img
                   className="cta__img cta__img--1"
                   src={`${process.env.REACT_APP_API_URL}/img/tours/${tour.images[1]}`}
-                  alt="Tour Picture 1"
+                  alt="Tour  1"
                 />
                 <img
                   className="cta__img cta__img--2"
                   src={`${process.env.REACT_APP_API_URL}/img/tours/${tour.images[2]}`}
-                  alt="Tour Picture 2"
+                  alt="Tour 2"
                 />
               </>
             )}

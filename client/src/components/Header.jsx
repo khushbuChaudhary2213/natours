@@ -31,6 +31,7 @@ function Header() {
         {user ? (
           <>
             <a
+              href="#"
               className="nav__el nav__el--logout"
               onClick={(e) => {
                 e.preventDefault();
@@ -42,7 +43,7 @@ function Header() {
             <a href="/me" className="nav__el">
               <img
                 src={`${process.env.REACT_APP_API_URL}/img/users/${user.photo}`}
-                alt={`Pic of ${user.name}`}
+                alt={`${user.name}`}
                 className="nav__user-img"
               />
               <span>{user.name.split(" ")[0]}</span>

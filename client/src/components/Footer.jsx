@@ -7,19 +7,19 @@ function Footer() {
 
       <ul className="footer__nav">
         <li>
-          <a href="#">About us</a>
+          <a href="/about">About us</a>
         </li>
         <li>
-          <a href="#">Download Apps </a>
+          <a href="/download">Download Apps </a>
         </li>
         <li>
-          <a href="#">Become a guide</a>
+          <a href="/becomeguide">Become a guide</a>
         </li>
         <li>
-          <a href="#">Career</a>
+          <a href="/career">Career</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
 

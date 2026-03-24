@@ -177,7 +177,7 @@ const Account = () => {
 
               <div className="form__group form__photo-upload">
                 <img
-                  className="form__user-photo"
+                  className="form__user"
                   src={`${process.env.REACT_APP_API_URL}/img/users/${user.photo}`}
                   alt="User photo"
                 />
